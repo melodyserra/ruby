@@ -72,31 +72,6 @@ Math.sqrt(9) #3.0
 - Instead of prototypes in JS that relate to some object, we have classes that encapsulate methods.
 - Classes can also inherit from other classes - this is called extension.
 
-```
-class Car
-	def initialize(color, make, model)
-		@color = color
-		@make = make
-		@model = model
-	end
-
-	def drive
-		puts "We are now driving!"
-	end
-
-	def paint(new_color)
-		@color = new_color
-		puts @color
-	end
-
-	def describe_car
-		puts "We are driving in the #{@color} #{@make} #{@model}"
-	end
-end
-
-Car.new("Red", "Honda", "Civic").paint("Blue")
-```
-
 ## Control Flow in Ruby
 - Controlling the flow of your application is crucial because it allows you to perform actions only under certain conditions.
 - Control flow often involves the use of "conditional" statements such as `if` - `else` blocks and the use of loops such as `for` and `while`.
@@ -138,6 +113,10 @@ num = gets.chomp.to_i
 ```
 ## In-Class Lab 1
 
+Create a class called Car. Inside of that class, define a method called initialize and pass in color, make, and model as parameters. Define another method called drive where you print a statement that says "We are now driving." Define a third method called paint that takes in new_color as a parameter and then prints out the new color. Lastly define a method called describe_car that will print out: "We are driving in the color make model."
+
+## Take Home Lab 1
+
 We will create a simple string conversion tool that takes in a string and alters it using our string class methods.
 First, write one gets statement that will take a string from our user.
 Create a class called ConvertString that will wrap our methods.
@@ -146,7 +125,7 @@ Create 4 different methods that will apply 4 string class methods to the inputte
 Output the resulting string to the console using puts.
 Instantiate the class using each of these methods.
 
-## In-Class Lab 2
+## Take Home Lab 2
 - Let's create a simple calculator using the Ruby Math module.
 - First, write two `gets` statements that will take 2 numbers from our user.
 - Create a class called `Calculator` that will wrap all of our methods.
