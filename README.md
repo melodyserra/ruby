@@ -111,11 +111,8 @@ message = gets.chomp
 
 num = gets.chomp.to_i
 ```
+
 ## In-Class Lab 1
-
-Create a class called Car. Inside of that class, define a method called initialize and pass in color, make, and model as parameters. Define another method called drive where you print a statement that says "We are now driving." Define a third method called paint that takes in new_color as a parameter and then prints out the new color. Lastly define a method called describe_car that will print out: "We are driving in the color make model."
-
-## Take Home Lab 1
 
 We will create a simple string conversion tool that takes in a string and alters it using our string class methods.
 First, write one gets statement that will take a string from our user.
@@ -125,7 +122,11 @@ Create 4 different methods that will apply 4 string class methods to the inputte
 Output the resulting string to the console using puts.
 Instantiate the class using each of these methods.
 
-## Take Home Lab 2
+## In-Class Lab 2
+
+Create a class called Car. Inside of that class, define a method called initialize and pass in color, make, and model as parameters. Define another method called drive where you print a statement that says "We are now driving." Define a third method called paint that takes in new_color as a parameter and then prints out the new color. Lastly define a method called describe_car that will print out: "We are driving in the color make model."
+
+## Take Home Lab 1
 - Let's create a simple calculator using the Ruby Math module.
 - First, write two `gets` statements that will take 2 numbers from our user.
 - Create a class called `Calculator` that will wrap all of our methods.
