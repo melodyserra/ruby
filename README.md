@@ -114,7 +114,7 @@ end
 
 Create a program that will ask your user for their name. Use **gets** to then be able to grab user input. Then print out the following statement: "Your name is ____"
 
-I want you to know take it a little further and apply the same concepts to integers. Your final output should read: "You have entered a and b and their sum is a+b"
+I want you to now take it a little further and apply the same concepts to integers. Your final output should read: "You have entered a and b and their sum is a+b"
 
 ## Take Home Lab 1
 
