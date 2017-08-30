@@ -20,12 +20,14 @@
 
 ## The Ruby Language
 
-- To practice using Ruby we can use the Interactive Ruby (IRB) tool.
+- Let's start with a discussion on "Why Ruby?"
+- To practice using Ruby we can use the Interactive Ruby (IRB) tool in the command line, today however we will be using a browser-based tool called repl.it.
 - Everything is an object.
 - Everything that is manipulated is an object, and the results of those manipulations are objects.
 - In Ruby everything is an object and you'll be able to use object methods on it all.
+- **YOU DO**: In groups of 2 research your assigned topic (puts, MATH, def, parameters, class, method). Come up with an example of how to use your assigned topic and be ready to explain/show us.  
 
-Let's take a look at some examples:
+Let's take a look at some examples of how Ruby works/ what the Ruby syntax looks like:
 
 ```
 puts "Melody Serra".length
@@ -54,6 +56,8 @@ console.log("Hello " + 4 + 2); //Hello 42
 ```
 puts "Hello " + 4 + 2 #no implicit conversion of Fixnum into String
 ```
+
+- **YOU DO**: Please go to http://tryruby.org/ and complete the challenges.
 
 ## Modules Versus Objects
 
@@ -106,13 +110,13 @@ end
 - Ruby has a method called `gets` that allows you to retrieve data from the user typing into the console.
 - In order to prevent the input from receiving a new line each time you must call the `.chomp` method:
 
-```
-message = gets.chomp
+## In-Class Lab
 
-num = gets.chomp.to_i
-```
+Create a program that will ask your user for their name. Use **gets** to then be able to grab user input. Then print out the following statement: "Your name is ____"
 
-## In-Class Lab 1
+I want you to know take it a little further and apply the same concepts to integers. Your final output should read: "You have entered a and b and their sum is a+b"
+
+## Take Home Lab 1
 
 We will create a simple string conversion tool that takes in a string and alters it using our string class methods.
 First, write one gets statement that will take a string from our user.
@@ -122,11 +126,11 @@ Create 4 different methods that will apply 4 string class methods to the inputte
 Output the resulting string to the console using puts.
 Instantiate the class using each of these methods.
 
-## In-Class Lab 2
+## Take Home Lab 2
 
 Create a class called Car. Inside of that class, define a method called initialize and pass in color, make, and model as parameters. Define another method called drive where you print a statement that says "We are now driving." Define a third method called paint that takes in new_color as a parameter and then prints out the new color. Lastly define a method called describe_car that will print out: "We are driving in the color make model."
 
-## Take Home Lab 1
+## Take Home Lab 3
 - Let's create a simple calculator using the Ruby Math module.
 - First, write two `gets` statements that will take 2 numbers from our user.
 - Create a class called `Calculator` that will wrap all of our methods.
